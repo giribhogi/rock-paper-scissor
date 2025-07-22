@@ -1,0 +1,81 @@
+*{
+    color: brown;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoColor{
+    background-color: aqua;
+    border-radius: 10%;
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.head{
+   
+}
+
+.winner{
+    text-align: center;
+
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    gap: 4vh;
+    margin-top: 6vh;
+    justify-content: center;
+
+}
+
+.opt{
+    width: 28%;
+    height: 100%;
+    background-color: rgb(0, 255, 255);
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+    transition: all .2s ease-in-out; 
+    cursor: pointer;
+
+}
+
+
+
+.opt:hover{
+   border-bottom: 25px solid brown;
+   transform: scale(1.1);
+}
+
+.choices{
+   margin-top: 8vh;
+    display: flex;
+    width: 100%;
+    height: 3vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;  
+}
+
+.winCount{
+    margin-top: 8vh;
+    display: flex;
+    width: 100%;
+    height: 3vh;
+    gap: 5vh;
+    justify-content: center;
+    align-items: center;
+}
